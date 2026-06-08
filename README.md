@@ -111,3 +111,9 @@ t-SNE PNGs. A GPU is recommended but the code falls back to CPU.
 3. **Scoring** — nearest-neighbour distance of each test patch to the bank gives the
    pixel anomaly map; the max patch score gives the image score.
 4. **Metrics** — image AUROC / F1-Max, pixel AUROC, AUPRO, and per-image latency.
+
+## License
+
+This project is released under the [MIT License](LICENSE). Note that the external
+baselines (DINOv3, DINOv2, ResNet-50 weights, MVTec AD) carry their own separate
+licenses — see their upstream links above.
