@@ -1,0 +1,9 @@
+# Core (install torch/torchvision matching your CUDA from https://pytorch.org)
+torch>=2.6
+torchvision>=0.21
+numpy
+scipy
+scikit-learn
+matplotlib
+Pillow
+huggingface_hub

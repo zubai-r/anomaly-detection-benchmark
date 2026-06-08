@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+
+# Data & weights (download separately — see README)
+data/
+*.pth
+
+# Generated visual artifacts (keep results/collated_results.md only)
+results/*.png
+results_dummy/
+
+# Project-local / editor
+.idea/
+.vscode/
+.DS_Store
