@@ -29,9 +29,7 @@ anomaly_detection/
 ├── metrics.py                      # image/pixel AUROC, F1-Max, AUPRO
 ├── eval.py                         # single category × backbone evaluation
 ├── run_all_evals.py                # full 15×3 sweep + collated report
-├── visualize.py                    # heatmaps, PCA overlays, t-SNE
-├── generate_all_visuals.py         # batch visual generation
-└── generate_presentation_visuals.py
+└── visualize.py                    # heatmaps, PCA overlays, t-SNE
 results/
 └── collated_results.md            # benchmark report (numbers above)
 ```
